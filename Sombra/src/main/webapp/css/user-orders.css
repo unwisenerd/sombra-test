@@ -41,6 +41,7 @@
 	border-radius: 5px;
 	background: white;
 	padding: 10px;
+	overflow: auto;
 }
 
 .section .order-button-container {
