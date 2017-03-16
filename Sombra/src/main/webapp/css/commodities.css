@@ -1,0 +1,165 @@
+@import "/css/common.css";
+
+.section .message-icon {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.section .commodities-container {
+	display: inline-block;
+	width: 100%;
+	text-align: justify;
+}
+
+.section .commodities-container:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height: 0;
+	text-align: justify;
+}
+
+.section .commodity-link {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.section .commodity-container {
+	display: inline-block;
+	background: white;
+	width: 200px;
+	height: 420px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.section .commodity-container:hover {
+	box-shadow: 0 0 10px black;
+}
+
+.section .commodity-name-container {
+	display: block;
+	color: grey;
+	font-size: 1.2em;
+	width: 180px;
+	height: 70px;
+	margin: 0 10px;
+	color: grey;
+}
+
+.section .commodity-name-container:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.section .commodity-name-value {
+	display: inline-block;
+	vertical-align: middle;
+	max-height: 100%;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+
+.section .commodity-country-container {
+	display: block;
+	color: grey;
+	width: 180px;
+	height: 20px;
+	margin: 0 10px;
+	color: grey;
+}
+
+.section .commodity-country-container:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.section .commodity-country-value {
+	display: inline-block;
+	vertical-align: middle;
+	max-height: 100%;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+
+.section .commodity-price-container {
+	display: block;
+	color: black;
+	width: 180px;
+	font-weight: normal;
+	font-size: 2em;
+	height: 60px;
+	margin: 0 10px;
+	color: black;
+}
+
+.section .commodity-price-container:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.section .commodity-price-value {
+	display: inline-block;
+	vertical-align: middle;
+	max-height: 100%;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+
+.section .commodity-image {
+	width: 100%;
+	height: 270px;
+}
+
+.section .filter-container {
+	display: inline-block;
+	text-align: left;
+	float: right;
+	vertical-align: top;
+	width: 25%;
+	border-radius: 5px;
+	background: white;
+	padding: 10px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.section .filter-submit-container {
+	text-align: center;
+}
+
+.section .filter-form-button {
+	margin-bottom: 5px;
+}
+
+.section .paging-container {
+	text-align: center;
+}
+
+.section .paging {
+	margin: 0;
+}
+
+.section .paging-link {
+	color: black;
+}
+
+.section .paging-link:hover {
+	color: black;
+}
+
+.section .paging-status {
+	color: black !important;
+	background: white !important;
+	border-color: lightgrey !important;
+}

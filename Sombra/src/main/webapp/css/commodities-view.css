@@ -1,0 +1,112 @@
+@import "/css/common.css";
+
+.section .popup-table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.section .popup-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.section .popup-content {
+	width: 400px;
+	margin: auto;
+}
+
+.section .popup-footer {
+	text-align: center;
+}
+
+.section #result-text {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.section .message-icon {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.section .commodity-left-content {
+	width: 50%;
+	display: inline-block;
+}
+
+.section .commodity-right-content {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.section .commodity-image-container {
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.section .commodity-image {
+	width: 100%;
+}
+
+.section .commodity-header {
+	display: block;
+	width: 90%;
+	margin-left: 10%;
+	margin-bottom: 20px;
+	background: white;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.section .commodity-name {
+	margin: 0;
+}
+
+.section .commodity-price {
+	font-size: 2em;
+}
+
+.section .commodity-description-container {
+	display: block;
+	width: 90%;
+	margin-left: 10%;
+	margin-bottom: 20px;
+	background: white;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.section .commodity-description {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.section .commodity-property {
+	border-bottom: 1px solid grey;
+}
+
+.section .commodity-value {
+	margin-bottom: 10px;
+}
+
+.section .commodity-form {
+	display: block;
+	width: 90%;
+	margin-left: 10%;
+	background: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.section .commodity-add-button {
+	text-align: center;
+}
+
+.section .commodity-add-icon {
+	display: inline-block;
+	margin-right: 5px;
+}

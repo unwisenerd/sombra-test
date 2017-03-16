@@ -1,0 +1,11 @@
+WARNING=DO NOT MODIFY THIS FILE IF YOU DON'T UNDERSTAND
+defaultDestination=\:.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Sombra
+defaultVariables=
+eclipse.preferences.version=1
+includeTeamPrivateFiles=false
+map|0=src/main/webapp/css|\:.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Sombra/css|,|,|,
+map|1=src/main/webapp/fonts|\:.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Sombra/fonts|,|,|,
+map|2=src/main/webapp/img|\:.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Sombra/img|,|,|,
+map|3=src/main/webapp/js|\:.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Sombra/js|,|,|,
+map|4=src/main/webapp/WEB-INF|\:.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Sombra/WEB-INF|,|,|,
+useCurrentDateForDestinationFiles=false

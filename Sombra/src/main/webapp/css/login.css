@@ -1,0 +1,35 @@
+@import "/css/common.css";
+
+.section .input-wrapper {
+	position: relative;
+}
+
+.section .message-icon {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.section .login-form-container {
+	width: 500px;
+	margin: 0 auto;
+	background: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.section .login-form-title {
+	text-align: center;
+}
+
+.section .login-form-checkbox {
+	margin-left: 0 !important;
+}
+
+.section .login-form-submit {
+	text-align: center;
+}
+
+.section .login-submit-icon {
+	display: inline-block;
+	margin-right: 5px;
+}

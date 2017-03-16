@@ -1,0 +1,154 @@
+@import "/css/common.css";
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	min-width: 768px;
+	min-height: 100%;
+	background: url(../img/background.jpg) repeat;
+}
+
+.header {
+	height: 100px;
+	background: white;
+}
+
+.header .header-content {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .header-logo {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.header .header-navigation {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.header .header-navigation-icon {
+	margin-right: 5px;
+}
+
+.header .header-navigation-link {
+	color: grey;
+	border-left: 1px solid lightgrey;
+	min-width: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1.2em;
+}
+
+.header a.header-navigation-link:first-child {
+	border-left: none;
+}
+
+.header .header-logout-form {
+	display: inline-block;
+}
+
+.navigation {
+	height: 50px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: white;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.navigation .navigation-location {
+	display: inline-block;
+	line-height: 50px;
+	background: white;
+	margin: 0;
+	margin-left: 20px;
+	padding: 0;
+}
+
+.navigation .navigation-location-item {
+	vertical-align: middle;
+}
+
+.navigation .navigation-location-icon {
+	margin-right: 5px;
+}
+
+.navigation .navigation-location-link {
+	color: grey;
+	font-size: 1.2em;
+}
+
+.navigation .navigation-buttons {
+	float: right;
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 10px;
+}
+
+.navigation .navigation-icon {
+	margin-right: 5px;
+}
+
+.navigation .navigation-button {
+	color: grey;
+}
+
+.navigation .navigation-user-greeting {
+	float: right;
+	color: grey;
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+.section {
+	min-height: calc(100% - 260px);
+	margin: 20px 5%;
+}
+
+.footer {
+	position: relative;
+	background: black;
+	text-align: center;
+	height: 50px;
+	background: black;
+}
+
+.footer:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.footer .footer-author {
+	color: grey;
+	display: inline-block;
+	margin: 0;
+	display: inline-block;
+}
+
+.footer .footer-author-social {
+	color: grey;
+	position: absolute;
+	right: 15px;
+	line-height: 50px;
+	font-size: 1.5em;
+	line-height: 50px;
+}
+
+.footer .footer-author-social-icon:hover {
+	transition: 1s;
+	transform: rotate(360deg);
+	color: #337ab7;
+}

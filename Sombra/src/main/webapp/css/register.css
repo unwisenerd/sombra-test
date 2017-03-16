@@ -1,0 +1,31 @@
+@import "/css/common.css";
+
+.section .input-wrapper {
+	position: relative;
+}
+
+.section .message-icon {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.section .register-form-container {
+	width: 500px;
+	margin: 0 auto;
+	background: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.section .register-form-title {
+	text-align: center;
+}
+
+.section .register-form-submit {
+	text-align: center;
+}
+
+.section .register-submit-icon {
+	display: inline-block;
+	margin-right: 5px;
+}

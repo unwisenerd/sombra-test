@@ -1,0 +1,40 @@
+@import "/css/common.css";
+
+.section .message-icon {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.section .popup-table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.section .popup-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.section .popup-content {
+	width: 400px;
+	margin: auto;
+}
+
+.section .popup-header {
+	text-align: center;
+}
+
+.section .popup-footer {
+	text-align: center;
+}
+
+.section .categories-container {
+	border-radius: 5px;
+	background: white;
+	padding: 10px;
+}
+
+.section .add-category-button {
+	text-align: center;
+}

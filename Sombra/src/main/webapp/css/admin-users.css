@@ -1,0 +1,53 @@
+@import "/css/common.css";
+
+.section .message-icon {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.section .popup-table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.section .popup-cell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.section .popup-content {
+	width: 400px;
+	margin: auto;
+}
+
+.section .edit-popup-title {
+	text-align: center;
+}
+
+.section .popup-button-center {
+	text-align: center;
+}
+
+.section .popup-header {
+	text-align: center;
+}
+
+.section .popup-footer {
+	text-align: center;
+}
+
+.section .user-image {
+	width: 32px;
+	height: 32px;
+}
+
+.section .users-container {
+	border-radius: 5px;
+	background: white;
+	padding: 10px;
+}
+
+.section .add-user-button {
+	text-align: center;
+}

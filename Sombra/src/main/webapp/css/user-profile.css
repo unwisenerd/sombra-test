@@ -1,0 +1,75 @@
+@import "/css/common.css";
+
+.section .input-wrapper {
+	position: relative;
+}
+
+.section .message-icon {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.section .user-right-content {
+	width: 40%;
+	display: inline-block;
+}
+
+.section .user-left-content {
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.section .user-image-container {
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	vertical-align: bottom;
+	width: 70%;
+	overflow: hidden;
+}
+
+.section .user-image {
+	width: 100%;
+}
+
+.section .user-info-container {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	background: white;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.section .user-info {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.section .user-property {
+	border-bottom: 1px solid grey;
+}
+
+.section .user-value {
+	margin-bottom: 10px;
+}
+
+.section .user-forms-container {
+	background: white;
+	border-radius: 5px;
+	display: block;
+	width: 90%;
+	margin-left: 10%;
+	padding: 10px;
+}
+
+.section .user-form-title {
+	text-align: center;
+}
+
+.section .user-form-submit {
+	text-align: center;
+}
